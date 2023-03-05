@@ -1,5 +1,3 @@
-import javax.xml.transform.Templates;
-
 class democlass {
     // defining a generic method to print any data type
     <T> void genericPrint(T t) {
