@@ -5,8 +5,8 @@ class democlass {
     }
 
     public static void main(String[] args) {
-        democlass obj = new democlass(); //create an object
-        obj.genericPrint(101); //calling generic method
+        democlass obj = new democlass(); // create an object
+        obj.genericPrint(101); // calling generic method
         obj.genericPrint("Joy with java");
         obj.genericPrint(3.1412343);
     }
