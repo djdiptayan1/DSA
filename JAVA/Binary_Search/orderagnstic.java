@@ -1,7 +1,10 @@
+import java.util.*;
 public class orderagnstic {
     public static void main(String[] args) {
+        Scanner sc= new Scanner(System.in);
         int arr[] = { 1, 2, 3, 4, 5, 7 };
-        int target = 999;
+        System.out.println("ENTER THE NUMBER TO BE SEARCHED");
+        int target = sc.nextInt();
         int ans = order(arr, target);
         System.out.println(ans);
     }
