@@ -13,7 +13,7 @@ public class sort1 {
     public static void insertion(int[] arr) {
 
         for (int i = 0; i < arr.length - 1; i++) { // i runs upto N-2
-            for (int j = i + 1; j > 0; j--) {
+            for (int j = i + 1; j > 0; j--) { //
 
                 if (arr[j] < arr[j - 1]) {
                     int temp = arr[j];
