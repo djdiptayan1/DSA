@@ -1,0 +1,8 @@
+1. run the outer for loop no of times we are having the lines (NUMBER OF ROWS)
+    NUMBER OF LINES = NUMBER OF ROWS = NUMBER OF TIMES OUTER LOOP WILL RUN. 
+
+2. Identify for every row number, how many columns are there or types of elements in the column
+
+3. What do you need to print.
+
+4. Try to find a formula relating row and column
