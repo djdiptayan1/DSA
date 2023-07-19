@@ -18,7 +18,9 @@ public class pattern4 {
 
         for (int i = 1; i < 2 * n; i++) {
             int col = (i > n) ? 2 * n - i : i;
+
             int space = n - col;
+            
             for (int s = 1; s < space + 1; s++) {
                 System.out.print("  ");
             }
