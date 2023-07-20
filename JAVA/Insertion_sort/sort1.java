@@ -1,4 +1,7 @@
 //INSERTION SORT
+/*
+ * Insertion Sort algorithm uses the technique of selecting a key in each iteration starting from the second element. Next, we make the proper position available for the key by shifting all the greater elements before it toward their right for sorting in ascending order. Finally, the selected key is stored before the last shifted greater element.
+ */
 
 import java.util.*;
 

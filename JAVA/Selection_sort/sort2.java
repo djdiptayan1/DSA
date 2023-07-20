@@ -1,7 +1,11 @@
 
 //SHORT PROGRAM
-import java.util.Arrays;
 
+/*
+ *  In selection sort algorithm, we search for the lowest element and arrange it to the proper location. We swap the current element with the next lowest number.
+ */
+
+import java.util.Arrays;
 public class sort2 {
     public static void main(String[] args) {
         int[] ar = { 1, 2, -8, 5, 9, 12, 0, 56, 4, 2 };

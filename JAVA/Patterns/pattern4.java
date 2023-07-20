@@ -21,7 +21,7 @@ public class pattern4 {
 
             int space = n - col;
             
-            for (int s = 1; s < space + 1; s++) {
+            for (int s = 1; s <= space; s++) {
                 System.out.print("  ");
             }
             for (int j = 1; j <= col; j++) {
