@@ -2,9 +2,9 @@
 // ITS OK
 import java.util.Arrays;
 
-public class sort1 {
+public class sort1_selection {
     public static void main(String[] args) {
-        int[] ar = { 1, 2, -8, 5, 9, 12, 0, 56, 4, 2 };
+        int[] ar = { 1, 2, 8, 5, 9, 12, 0, 56, 4, 2 };
         selection(ar);
         System.out.println(Arrays.toString(ar));
     }

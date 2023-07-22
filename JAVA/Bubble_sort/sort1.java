@@ -2,7 +2,7 @@ import java.util.Arrays;
 
 public class sort1 {
     public static void main(String[] args) {
-        int[] ar = { 1, 2, -8, 5, 9, 12, 0, 56, 4, 2 };
+        int[] ar = { 1, 2, 5, 9, 12, 0, 156, 4, 2 };
         bubble(ar);
         System.out.println(Arrays.toString(ar));
     }
