@@ -1,5 +1,5 @@
 import java.util.*;
-
+//larger value of a number can be solved by converting it to a smaller one till the base case is reached. 
 public class fibinacci_norecur {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
