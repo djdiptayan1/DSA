@@ -5,8 +5,6 @@
  * complexity and O(n)
  * runtime complexity?
  * 
- * 
- * 
  * Example 1:
  * Input: nums = [3, 0, 1]
  * Output: 2
