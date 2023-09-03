@@ -50,6 +50,24 @@ struct Node *delete_last(struct Node *head) // deleting last node
     return head;
 }
 
+struct Node *delete_value(struct Node *head, int value) // deleting at index
+{
+    struct Node *p = head;       // previous node of q
+    struct Node *q = head->next; // next node of p
+    int i = 0;
+    while (q->data != value && q->next != NULL)
+    {
+        p = p->next;
+        q = q->next;
+    }
+    if (q->data == value)
+    {
+        p->next = q->next;
+        free(q);
+    }
+    return head;
+}
+
 int main()
 {
     struct Node *head;
