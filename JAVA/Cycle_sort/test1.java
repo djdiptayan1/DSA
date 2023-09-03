@@ -3,7 +3,7 @@ import java.util.*;
 
 public class test1 {
     public static void main(String[] args) {
-        int[] ar = { 3, 5, 2, 1, 4 };
+        int[] ar = { 3, 5, 2, 1, 4 ,6};
         cycle(ar);
         System.out.println(Arrays.toString(ar));
     }
