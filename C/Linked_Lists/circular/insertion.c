@@ -37,7 +37,20 @@ struct Node *insert_first(struct Node *head, int data)
 
     return head;
 }
-struct Node *insert_last(struct Node *head, int data, int index) // Insertion at the end
+struct Node *insert_last(struct Node *head, int data) // Insertion at the end
+{
+    struct Node *ptr = (struct Node *)malloc(sizeof(struct Node));
+    ptr->data = data;
+    struct Node *p = head;
+    while (p->next != head)
+    {
+        p = p->next;
+    }
+    p->next = ptr; // Update the last node to point to the new node
+    ptr->next = head;
+    return head;
+}
+struct Node *insert_at(struct Node *head, int data, int index) // Insertion at the end
 {
     struct Node *ptr = (struct Node *)malloc(sizeof(struct Node));
     ptr->data = data;
@@ -50,19 +63,6 @@ struct Node *insert_last(struct Node *head, int data, int index) // Insertion at
     }
     ptr->next = p->next;
     p->next = ptr;
-    return head;
-}
-struct Node *insert_at(struct Node *head, int data, int index) // Insertion at the end
-{
-    struct Node *ptr = (struct Node *)malloc(sizeof(struct Node));
-    ptr->data = data;
-    struct Node *p = head;
-    while (p->next != head)
-    {
-        p = p->next;
-    }
-    p->next = ptr; // Update the last node to point to the new node
-    ptr->next = head;
     return head;
 }
 
@@ -94,7 +94,7 @@ int main()
     forth->next = head;
 
     // Insert elements at the beginning of the circular linked list
-    head = insert_last(head, 6);
+    head = insert_at(head, 6, 1);
 
     LLprint(head);
 
