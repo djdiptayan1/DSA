@@ -37,6 +37,7 @@ struct Node *insert_first(struct Node *head, int data)
 
     return head;
 }
+
 struct Node *insert_last(struct Node *head, int data) // Insertion at the end
 {
     struct Node *ptr = (struct Node *)malloc(sizeof(struct Node));
@@ -50,7 +51,8 @@ struct Node *insert_last(struct Node *head, int data) // Insertion at the end
     ptr->next = head;
     return head;
 }
-struct Node *insert_at(struct Node *head, int data, int index) // Insertion at the end
+
+struct Node *insert_at(struct Node *head, int data, int index) // Insertion at a given index
 {
     struct Node *ptr = (struct Node *)malloc(sizeof(struct Node));
     ptr->data = data;
