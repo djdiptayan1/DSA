@@ -10,7 +10,6 @@ public class sort1 {
         int[] ar = { 5, 3, 4, 1, 2 };
         insertion(ar);
         System.out.println(Arrays.toString(ar));
-
     }
 
     public static void insertion(int[] arr) {
