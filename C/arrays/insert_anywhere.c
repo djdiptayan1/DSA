@@ -25,10 +25,6 @@ int main()
 
     arr[pos] = ele;
 
-    // //shifting the elements to left
-    // for(int i = pos; i < size; i++)
-    //     arr[i] = arr[i + 1];
-
     printf("elements of array: ");
     for (int i = 0; i < size; i++)
     {
