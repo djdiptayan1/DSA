@@ -20,10 +20,14 @@ int main()
 
     size++; // increasing the size of array
 
-    for (int i = size; i > pos; i--)
+    for (int i = size; i > pos; i--) // shifting the elements to right
         arr[i] = arr[i - 1];
 
     arr[pos] = ele;
+
+    // //shifting the elements to left
+    // for(int i = pos; i < size; i++)
+    //     arr[i] = arr[i + 1];
 
     printf("elements of array: ");
     for (int i = 0; i < size; i++)
