@@ -29,7 +29,7 @@ struct Node *insert_first(struct Node *head, int data)
     struct Node *p = head->next;
     while (p->next != head)
     {
-        p = p->next;
+        p = p->next; // Traverse the linked list
     }
     p->next = ptr;    // Update the last node to point to the new node
     ptr->next = head; // Update the new node to point to the head

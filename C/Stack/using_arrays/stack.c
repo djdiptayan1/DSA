@@ -23,6 +23,7 @@ int isFull(struct stack *ptr) // Checking if the stack is full
     else
         return 0;
 }
+
 int push(struct stack *ptr, int val) // Pushing an element in the stack
 {
     if (!isFull(ptr))
