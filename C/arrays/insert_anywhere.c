@@ -24,7 +24,7 @@ int main()
         arr[i] = arr[i - 1];
 
     arr[pos] = ele;
-
+    
     printf("elements of array: ");
     for (int i = 0; i < size; i++)
     {
